@@ -12,10 +12,7 @@ end
 
 
 get '/cat' do
-  "<div>
-  <div style='border: 3px dashed red'>
-    <img src='https://i.imgur.com/jFaSxym.png'> 
-  </div>"
+  erb(:index)
 
 end
 
